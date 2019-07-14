@@ -1,0 +1,171 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'nunito'
+}
+
+.bg-dark {
+    background: #252C4A !important;
+}
+
+.border-top-4 {
+    border-top: 4px solid #B4B9CD;
+}
+
+.border-dark-grey {
+    border: 4px solid #3D435E;
+}
+
+.border-radius-3p {
+    border-radius: 3px;
+}
+
+
+
+.text-grey-dark {
+    color: #B4B9CD;
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+.text-md {
+    font-size: 16px;
+}
+
+.mt-6 {
+    margin-top: 3.5rem;
+}
+
+.mt-7 {
+    margin-top: 4rem;
+}
+
+.mt-8 {
+    margin-top: 4.5rem;
+}
+
+.mt-9 {
+    margin-top: 5rem;
+}
+
+.mt-10 {
+    margin-top: 5.5rem;
+}
+
+.mt-2\/5 {
+    margin-top: 2.5rem;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: .5px;
+}
+
+.btn-blue-disabled {
+    background: #4D5DB6;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-blue-enabled {
+    background: #5E72E4;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.btn-success-disabled {
+    background: #2A9D76;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-success-enabled {
+    background: #2DCE89;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.py-4p {
+    padding: 15px 0 15px 0;
+}
+
+.py-07 {
+    padding: .7rem 0 .7rem 0;
+}
+
+.selected {
+    border-color: white;
+    color: white;
+    transition: .3s;
+}
+
+.selected-success {
+    border-color: #2DCE89;
+    color: #2DCE89;
+    transition: .3s;
+}
+
+
+.selected-warning {
+    border-color: #fb6340;
+    color: #fb6340;
+    transition: .3s;
+}
+
+select::-ms-expand {
+    display: none !important;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+
+.h-18 {
+    height: 18vh;
+}
+
+.text-4xl {
+    font-size: 32px;
+}
+
+.py-16p {
+    padding: 11px 0 11px 0;
+}
+
+.radial-gradient {
+    background: rgb(37,44,74);
+    background: radial-gradient(circle, rgba(37,44,74,1) 25%, rgba(30,36,61,1) 49%, rgba(18,22,38,1) 100%, rgba(7,9,15,1) 100%);
+
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.svg-pos{
+    top: -28%;
+    left: 18%;
+    z-index: -10;
+}
+
+::placeholder {
+    color: #B4B9CD;
+    letter-spacing: 1px !important;
+}
