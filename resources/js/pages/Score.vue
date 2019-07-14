@@ -151,8 +151,8 @@
         </div>
         <div class="w-auto d-flex justify-content-center mt-2/5 flex-column text-center" >
             <p class="text-white font-weight-bold" style="font-size: 24px; letter-spacing: 3px; ">Parabéns</p>
-            <p class="text-white " style="letter-spacing: 3px; ">Você respondeu <br> todas as questões</p>
-            <p class="text-white font-weight-bold" style="font-size: 24px; letter-spacing: 3px; ">Pontos: {{ score }}</p>
+            <p class="text-white " style="letter-spacing: 3px; ">Você acertou: {{ score }}/{{ this.$store.getters.questions.length }} perguntas</p>
+            <p class="text-white font-weight-bold" style="letter-spacing: 3px; ">Seus pontos foram: {{ score }} pontos</p>
         </div>
           <div class="w-auto d-flex mt-3 px-4 justify-content-center">
                 <div class="font-weight-bold text-sm ls-1 py-4p text-white  border border-white bg-transparent border-radius-3p w-50 text-center mr-2 text-uppercase" @click="saberMais">saber mais</div>
