@@ -76,7 +76,6 @@
                 if (this.quiz[this.currentQuestion].my_answer != null) {
                     this.$store.dispatch('calculateScore')
                     this.$router.push('score')
-
                 }
             },
             back() {
@@ -89,7 +88,6 @@
                     'question': currentQuestion,
                     'answer': answer
                 })
-
             }
         },
     }
